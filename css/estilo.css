@@ -1,0 +1,94 @@
+/* CSS Document */
+@font-face {
+    font-family: "menu_elegant";
+    src: url('../ttf/elegant_line_7.ttf') format("truetype");
+}
+@font-face {
+    font-family: "menu_ecomercial";
+    src: url('../ttf/EtharnigSc.otf') format("opentype");
+}
+@font-face {
+    font-family: "medalhas_premios";
+    src: url('../ttf/NTBRICKSANS.otf') format("opentype");
+}
+@font-face {
+    font-family: "maquina_de_escrever";
+    src: url('../ttf/TravelingTypewriter.ttf') format("truetype");
+}
+.logo {
+    height: 50px;
+}
+.bg-body-tertiary {
+    background-color: #f0ede8 !important;
+}
+.navbar {
+    padding: 2rem;
+}
+.nav-item {
+    background-color: #ffffff;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    padding: 0 1rem 0 1rem;
+}
+.nav-link {
+    color: #726963 !important;
+    font-family: 'menu_elegant' !important;
+    line-height: 2rem !important;
+    vertical-align: baseline !important;
+    text-align: center !important;
+}
+.premiacoes_educacao {
+    inline-size: 150px;
+}
+.ecomercial {
+    color: #726963 !important;
+    font-size: 140%;
+    font-family: 'menu_ecomercial' !important;
+    display: inline;
+}
+.medalha {
+    height: 5rem;
+    width: 5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: #ffce00;
+    border-radius: 4rem 4rem 4rem 4rem;
+    webkit-border-radius: 2rem 2rem 2rem 2rem;
+    moz-border-radius: 100rem 100rem 100rem 100rem;
+    border: 0.4rem solid #000000;
+    box-shadow: 0.3rem 0.3rem 0rem 0rem rgba(0, 0, 0, 1);
+    webkit-box-shadow: 0.3rem 0.3rem 0rem 0rem rgba(0, 0, 0, 1);
+    moz-box-shadow: 0.3rem 0.3rem 0rem 0rem rgba(0, 0, 0, 1);
+    font-family: "medalhas_premios";
+    color: #ffffff
+}
+.primeira_parte {
+    background-color: #717254;
+    margin-top: 9rem;
+    padding: 2rem 1rem;
+}
+.papel_velho {
+    font-size: 1.3rem;
+    font-family: "maquina_de_escrever";
+    color: #261b13;
+    text-align: justify;
+    text-indent: 2rem;
+    background-image: url("../img/folha_bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 5rem;
+    margin-top: 2rem;
+}
+.centraliza_foto img {
+    position: relative;
+    top: calc(100vh/20);
+    width: 100%;
+}
+.mascara_papel {
+    -webkit-mask-image: url("../img/mascara_papel.svg");
+    mask-image: url("../img/mascara_papel.svg");
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
